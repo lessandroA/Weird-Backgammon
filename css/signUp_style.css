@@ -1,0 +1,104 @@
+@import url(common/header_style.css);
+@import url(common/background_style.css);
+@import url(common/navbar_stye.css);
+
+#container {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    height: 600px;
+    width: auto;
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 370px;
+    width: 600px;
+    border-width: 1px;
+    border-style: ridge;
+    border-radius: 12px;
+    border-color: #22140b;
+    margin: auto;
+    font-size: 25px;
+    background-color: #d1966ed7;
+    box-shadow: 3px 3px 3px 3px black; 
+    background: linear-gradient(to bottom, black 16%, #d1966ed7 23%);
+}
+
+.break-div {
+    flex-basis: 100%;
+    height: 0;
+}
+
+
+input{
+    border-color: #690a0a;
+    margin: 0;
+    height: 45px;
+    width: 270px;
+    font-size: 23px;
+    border-radius: 11px;
+}
+
+input:focus{
+    border-color: crimson;
+}
+
+button{
+    font-size: 22px;
+    width: 150px;
+    height: 71px;
+    padding: 7px;
+    margin: 7px;
+    background-color: rgb(255, 253, 208);
+    box-shadow: 2px 2px 1px 1px black;
+    border-radius: 55px;
+    border: none;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: rgb(206, 205, 180);
+}
+
+button:active{
+    background-color: rgb(206, 205, 180);
+    box-shadow: -3px -3px 1px 1px black;
+}
+
+button:disabled{
+    background-color: rgb(165, 161, 161);
+    color: rgb(230, 225, 225);
+    box-shadow: 1px 1px 1px 1px;
+}
+
+#button-div{
+    text-align: center;
+    align-self: flex-end;
+}
+
+#signup-title{
+    font-weight: lighter;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+}
+
+
+.input-div{
+    text-align: left;
+    display: inline-block;
+    margin: 7px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+form{
+    text-align: center;
+}

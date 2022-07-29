@@ -1,0 +1,53 @@
+#new-game-request{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 270px;
+    width: 750px;
+    border-width: 1px;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: #22140b;
+    text-align: center;
+    margin: auto;
+    font-size: 31px;
+    color: white;
+    background: linear-gradient(to bottom, black 26%, #d1966ed7 34%);
+    box-shadow: 3px 3px 3px 3px black;
+    align-items: center;
+    align-content: center;
+}
+
+#opponent-text {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+input {
+    font-size: 28px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 300px;
+}
+
+#button-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    margin: 0;
+}

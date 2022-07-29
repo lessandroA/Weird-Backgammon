@@ -1,0 +1,55 @@
+@import url(common/header_style.css);
+@import url(common/background_style.css);
+@import url(common/navbar_stye.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+#stats{
+    padding: 15px;
+    font-size: 28px;
+}
+
+.enlightened {
+    background-color: greenyellow;
+}
+
+#ranking-title{
+    font-size: 30px;
+}
+
+#ranking{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+table{
+    background-color: aliceblue;
+    font-size: 21px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}

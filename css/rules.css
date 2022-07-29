@@ -1,0 +1,26 @@
+@import url(common/header_style.css);
+@import url(common/background_style.css);
+@import url(common/navbar_stye.css);
+
+
+#rules-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 900px;
+    width: auto;
+}
+
+#rules-box {
+    text-align: center;
+    width: 94%;
+    height: 85%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 120px;
+    background-color: rgb(255, 253, 208);
+    box-shadow: 2px 2px 1px 1px black;
+    border-radius: 55px;
+    border: 3px solid black;
+}

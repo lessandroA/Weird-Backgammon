@@ -1,0 +1,67 @@
+nav{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#navbar-ul{
+    text-align: center;
+    list-style-type: none;
+    float: inherit;
+    padding-left: 0px;
+}
+
+.navbar-li:nth-child(even){
+    color: black;
+    background-color: crimson;
+    border:3px solid black;
+}
+
+.navbar-li{
+    height: 70px;
+    width: 350px;
+    display: inline;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    border:3px solid crimson;
+    font-size: 27px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+a{  
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    border: 0;
+    
+}
+
+.navbar-li:nth-child(odd) > a {
+    color: white;
+}
+
+.navbar-li:nth-child(even) > a {
+    color: black;
+}
+
+.navbar-li:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar-li:hover > a{
+    color: black;
+}

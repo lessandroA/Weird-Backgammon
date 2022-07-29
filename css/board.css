@@ -1,0 +1,244 @@
+@import url(common/header_style.css);
+@import url(common/background_style.css);
+@import url(common/navbar_stye.css);
+
+#outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 900px;
+    margin-top: -20px;
+    margin-bottom: -55px;
+}
+
+#background-board{
+    display: flex;
+    width: 1103px;
+    height: 700px;
+    background-color: #a77c56;
+    border: 8px ridge black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 5px brown;
+    display: flex;
+    flex-direction: column;
+}
+
+#subcontainer-top{
+    width: 1150px;
+    height: 320px;
+    vertical-align: top;
+}
+
+.triangle-top {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    font-size: 0px; 
+    line-height: 0%; 
+    width: 82px;
+    height: 285px;
+    border-top: 0px;
+    background-image: url(../images/BlackUpper.png);
+    background-repeat: no-repeat;
+    border-left:0px solid transparent; 
+    border-right:0px solid transparent;
+    border-bottom: 0px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.triangle-top:nth-child(2n){
+    background-color: transparent;
+    background-image: url(../images/WhiteUpper.png);
+}
+
+
+.triangle-top:hover{
+    background-color: rgb(219, 219, 219);
+    
+}
+
+
+.fill{
+    display: none;
+}
+
+#divider-top{
+    display: inline-block;
+    height: 0px;
+    width:60px;
+    border:4px ridge silver;
+    border-top:none;
+    border-bottom: none;
+    padding-bottom: 320px;
+    background-color: rgb(104, 66, 16);
+}
+
+
+#subcontainer-bottom{
+    vertical-align: bottom;
+    height: 320px;
+    width: 1110px;
+}
+
+.triangle-bottom {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    font-size: 0px; 
+    line-height: 0%; 
+    width: 82px;
+    height: 280px;
+    background-color: transparent;
+    border-bottom: 0px;
+    background-image: url(../images/BlackBelow.png);
+    background-repeat: no-repeat;
+    border-left:0px solid transparent; 
+    border-right:0px solid transparent;
+    border-top: 0px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.triangle-bottom:nth-child(2n){
+    background-color: transparent;
+    background-image: url(../images/WhiteBelow.png);
+}
+
+
+
+.triangle-bottom:hover{
+    background-color: rgb(219, 219, 219);
+    border-bottom: 0px;
+}
+
+
+.triangle-bottom:nth-child(2n):hover{
+    background-color: rgb(219, 219, 219);
+    border-bottom: 0px;
+}
+
+#divider-bottom{
+    display: inline-block;
+    height: 0px;
+    width:60px;
+    border:4px ridge silver;
+    border-top:none;
+    border-bottom: none;
+    padding-bottom: 320px;
+    background-color: rgb(104, 66, 16);
+    vertical-align: bottom;
+}
+
+
+#divider-middle{
+    width: 1105px;
+    height: 60px;
+    background-color: #ce976793;
+    border:3px ridge silver;
+    border-left: none;
+    border-right: none;
+}
+
+.red{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    border-style: ridge;
+    border-color: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.black{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 5px rgb(176, 176, 176);
+    border-radius: 50px;
+    border-style: ridge;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#diceRolling-container {
+    margin-top: 20px;
+    width: 400px; 
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#diceRolling{
+    
+    flex-grow: 3;
+    width: 200px;
+    height: 50px;
+    padding: 7px;
+    margin: 7px;
+    background-color: rgb(255, 253, 208);
+    box-shadow: 2px 2px 1px 1px black;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.diceBox{
+    text-align: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    flex-grow: 1;
+    font-size: 30pt;
+}
+
+#out-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-left: 40px;
+    height: 700px;
+    width: 95px;
+}
+
+#red-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    height: 330px;
+    border: 5px solid red;
+    background-color: rgb(205, 173, 145);
+}
+
+#black-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-content: center;
+    height: 330px;
+    border: 5px solid black;
+    background-color: rgb(205, 173, 145);
+}
